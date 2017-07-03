@@ -1,0 +1,110 @@
+.container {
+    margin: 0 auto;
+/*     width: 400px; */
+}
+
+#game {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 40px;
+    background-color: black;
+}
+.green{
+  background-color: #59cc67;
+  height: 150px;
+  width: 150px;
+  float: left;
+  border-top-left-radius: 100%;
+  
+}
+.red{
+  height: 150px;
+  width: 150px;
+  background-color: #f97266;
+  float: right;
+  border-top-right-radius: 100%;
+}
+.yellow{
+  background-color: #d8e26a;
+  height: 150px;
+  width: 150px;
+  float: left;
+  border-bottom-left-radius: 100%;
+}
+.blue{
+  height: 150px;
+  width: 150px;
+  background-color: #74a2ed;
+  float: right;
+  border-bottom-right-radius: 100%;
+}
+.button{
+  cursor: pointer;
+   border: 5px solid #ccc;
+  
+}
+.switch-field {
+  font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+  padding: 0px;
+	overflow: hidden;
+}
+
+.switch-title {
+  margin-bottom: 6px;
+}
+
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field label {
+  float: center;
+}
+
+.switch-field label {
+  display: inline-block;
+  width: 60px;
+  background-color: #e4e4e4;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: none;
+  padding: 6px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+  background-color: #A5DC86;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+.row{
+   text-align: center;
+}

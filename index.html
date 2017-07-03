@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>simonSays</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <div id="game" class="row">
+    <div id="green" class="green button"></div>
+    <div id="red" class="red button"></div>
+    <div id="yellow" class="yellow button"></div>
+    <div id="blue" class="blue button"></div>
+    
+    
+  </div>
+  <div class="row">
+  <div class="turn-count">
+    Count: {{count}}
+  </div>
+  <button class="btn btn-primary start">
+    Start
+  </button>
+  <form class="form">
+    <div class="switch-field">
+      <div class="switch-title">Strict?</div>
+      <input type="radio" id="switch_left" name="switch_2" value="no" checked/>
+      <label for="switch_left">No</label>
+      <input type="radio" id="switch_right" name="switch_2" value="yes" />
+      <label for="switch_right">Yes</label>
+    </div>
+  </form>
+  
+</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
